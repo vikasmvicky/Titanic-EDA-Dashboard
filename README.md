@@ -1,105 +1,58 @@
-# 🚢 Titanic Survival Analysis (EDA Project)
+# 🚢 Titanic Survival Analysis & Dashboard
 
-## 📌 Problem Statement
+## 📌 Overview
 
-The goal of this project is to analyze passenger data from the Titanic disaster and identify patterns that influenced survival. The focus is on understanding how factors like gender, class, age, and fare affected survival rates.
-
----
-
-## 📂 Dataset
-
-* Source: Kaggle – Titanic: Machine Learning from Disaster
-* File used: `train.csv`
-
-### Key Features:
-
-* `Survived`: Survival status (0 = No, 1 = Yes)
-* `Pclass`: Passenger class
-* `Sex`: Gender
-* `Age`: Age of passenger
-* `Fare`: Ticket price
-* `Embarked`: Port of embarkation
+This project analyzes the Titanic dataset to identify key factors influencing passenger survival using Python (EDA) and Power BI.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📊 Dashboard Preview
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
+![Dashboard](images/dashboard.png)
 
 ---
 
-## 🔍 Steps Performed
+## 🎯 Objectives
 
-### 1. Data Loading & Inspection
-
-* Loaded dataset using Pandas
-* Checked structure, data types, and summary statistics
-
-### 2. Data Cleaning
-
-* Handled missing values:
-
-  * Age → filled with median
-  * Embarked → filled with mode
-* Dropped `Cabin` column due to excessive missing values
-
-### 3. Exploratory Data Analysis (EDA)
-
-* Univariate Analysis:
-
-  * Survival distribution
-  * Gender distribution
-* Bivariate Analysis:
-
-  * Survival vs Gender
-  * Survival vs Class
-  * Survival vs Fare
-
-### 4. Feature Engineering
-
-* Created age groups (Child, Adult, Senior) for better analysis
-
-### 5. Visualization
-
-* Count plots for categorical variables
-* Histograms for numerical features
-  <img width="1475" height="749" alt="Screenshot (497)" src="https://github.com/user-attachments/assets/f9693b2b-abb4-4090-aabb-79ec329afd4f" />
-
+* Analyze survival patterns based on gender, class, and fare
+* Perform data cleaning and exploratory data analysis
+* Build an interactive dashboard for insights
 
 ---
 
-## 📊 Key Insights
+## 🛠 Tools & Technologies
 
-* Female passengers had significantly higher survival rates, indicating priority evacuation policies.
-* Passengers in first class had a much higher survival probability compared to lower classes.
-* Higher ticket fare is positively associated with survival, suggesting economic status played a role.
-* Younger passengers (children) had relatively better survival chances.
+* Python (Pandas, Matplotlib, Seaborn)
+* Power BI
+* Jupyter Notebook
 
 ---
 
-## 📈 Conclusion
+## 🔍 Key Insights
 
-Survival on the Titanic was strongly influenced by gender, class, and economic status. These insights highlight how social factors impacted rescue priority during the disaster.
+* Female passengers had significantly higher survival rates (~74%) compared to males (~19%)
+* First-class passengers had better survival probability
+* Higher fares are associated with higher survival
+* Socio-economic factors influenced survival outcomes
+
+---
+
+## 📂 Project Structure
+
+Titanic-EDA-Dashboard/
+│── data/
+│── dashboard/
+│── images/
+│── eda.ipynb
+│── README.md
 
 ---
 
 ## 🚀 Future Improvements
 
-* Apply machine learning models for prediction
-* Perform advanced feature engineering
-* Build an interactive dashboard using Streamlit
-
----
-
-## 📁 Project Structure
-
-Titanic-EDA/
-│── data/
-│── eda.ipynb
-│── README.md
+* Add machine learning model
+* Deploy dashboard online
+* Advanced feature engineering
 
 ---
 

@@ -66,6 +66,8 @@ The goal of this project is to analyze passenger data from the Titanic disaster 
 
 * Count plots for categorical variables
 * Histograms for numerical features
+  <img width="1475" height="749" alt="Screenshot (497)" src="https://github.com/user-attachments/assets/f9693b2b-abb4-4090-aabb-79ec329afd4f" />
+
 
 ---
 
